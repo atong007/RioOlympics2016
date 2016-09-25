@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0El-tf-ama">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="sdv-w4-1fp">
+            <objects>
+                <tabBarController id="0El-tf-ama" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Olg-QK-772">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vTX-jb-oAD" kind="relationship" relationship="viewControllers" id="QL7-tU-7Pb"/>
+                        <segue destination="eo8-nr-9qw" kind="relationship" relationship="viewControllers" id="Kgz-gK-Lda"/>
+                        <segue destination="MBg-25-btX" kind="relationship" relationship="viewControllers" id="ce6-We-zwC"/>
+                        <segue destination="nJg-kS-RxV" kind="relationship" relationship="viewControllers" id="JMr-n4-orV"/>
+                        <segue destination="Cpr-Me-Ze0" kind="relationship" relationship="viewControllers" id="X5E-xp-ZUA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aUo-f2-Miu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-711" y="-333"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="kxr-gM-VZO">
+            <objects>
+                <viewController id="Cpr-Me-Ze0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7mE-qq-1TY"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cn7-aG-C7M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="37y-YE-aqO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="About-bg" translatesAutoresizingMaskIntoConstraints="NO" id="sDk-9b-iWz">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sDk-9b-iWz" firstAttribute="top" secondItem="37y-YE-aqO" secondAttribute="top" id="1Jq-QD-Hjp"/>
+                            <constraint firstItem="sDk-9b-iWz" firstAttribute="bottom" secondItem="Cn7-aG-C7M" secondAttribute="top" id="R0h-kd-Gg2"/>
+                            <constraint firstAttribute="trailing" secondItem="sDk-9b-iWz" secondAttribute="trailing" id="h2k-Jg-myk"/>
+                            <constraint firstItem="sDk-9b-iWz" firstAttribute="leading" secondItem="37y-YE-aqO" secondAttribute="leading" id="sop-E6-fgP"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About" image="About-TabBarIcon" id="PzP-x4-gZ4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eOE-Ls-yC5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1062" y="641"/>
+        </scene>
+        <!--CountDown-->
+        <scene sceneID="QcU-iV-0kK">
+            <objects>
+                <viewController id="nJg-kS-RxV" customClass="CountDownViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XfX-8Q-3ot"/>
+                        <viewControllerLayoutGuide type="bottom" id="RGN-XY-unR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6gJ-kX-EFp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdK-2P-kJG">
+                                <rect key="frame" x="192" y="113" width="216" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="216" id="3WG-Ir-oDf"/>
+                                    <constraint firstAttribute="height" constant="60" id="Owl-FF-y5Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CountDown-bg" translatesAutoresizingMaskIntoConstraints="NO" id="SZa-EL-Wis">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="SZa-EL-Wis" secondAttribute="trailing" id="DnY-CW-8bk"/>
+                            <constraint firstItem="wdK-2P-kJG" firstAttribute="centerX" secondItem="6gJ-kX-EFp" secondAttribute="centerX" id="QK5-De-94f"/>
+                            <constraint firstItem="SZa-EL-Wis" firstAttribute="bottom" secondItem="RGN-XY-unR" secondAttribute="top" id="hgl-UQ-CF5"/>
+                            <constraint firstItem="wdK-2P-kJG" firstAttribute="top" secondItem="XfX-8Q-3ot" secondAttribute="bottom" constant="93" id="nGj-gi-Kza"/>
+                            <constraint firstItem="SZa-EL-Wis" firstAttribute="top" secondItem="6gJ-kX-EFp" secondAttribute="top" id="pXU-Bv-Xgw"/>
+                            <constraint firstItem="SZa-EL-Wis" firstAttribute="leading" secondItem="6gJ-kX-EFp" secondAttribute="leading" id="vDT-Ef-xIQ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="CountDown" image="CountDown-TabBarIcon" id="OUx-3R-lg3"/>
+                    <connections>
+                        <outlet property="timeLabel" destination="wdK-2P-kJG" id="iOh-zL-TxH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nOn-eq-Gek" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-448" y="641"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="sAf-tg-MPS">
+            <objects>
+                <tableViewController id="DND-7t-yc8" customClass="ScheduleViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="6Wc-wq-Sn1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="0e6-nX-cwr">
+                                <rect key="frame" x="0.0" y="113.5" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0e6-nX-cwr" id="jzk-eG-mL2">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="DND-7t-yc8" id="DGf-08-Sck"/>
+                            <outlet property="delegate" destination="DND-7t-yc8" id="yfd-tM-LCN"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="gsA-j0-gEP"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m1a-fB-aCX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="998" y="607"/>
+        </scene>
+        <!--Schedule-->
+        <scene sceneID="oOK-CW-nuz">
+            <objects>
+                <navigationController id="MBg-25-btX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Schedule" image="Schedule-TabBarIcon" id="U2i-Ju-rHF"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="agI-lQ-uPk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="DND-7t-yc8" kind="relationship" relationship="rootViewController" id="oXE-dx-OB2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iaa-wx-G72" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="178" y="607"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="yot-AE-MCE">
+            <objects>
+                <navigationController id="eo8-nr-9qw" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Events" image="Events-TabBarIcon" id="dKW-aX-LXB"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yCp-KR-VPL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ddp-qW-HLt" kind="relationship" relationship="rootViewController" id="aJR-1Q-NEB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rwl-Ib-qog" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="59" y="-94"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="XzT-53-s0P">
+            <objects>
+                <collectionViewController id="ddp-qW-HLt" customClass="EventsViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="QPb-As-IUy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="9" minimumInteritemSpacing="9" id="IlL-Qb-9IJ">
+                            <size key="itemSize" width="106" height="106"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="50" minY="11" maxX="40" maxY="10"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="WZU-WF-xmh" customClass="EventsViewCell">
+                                <rect key="frame" x="50" y="75" width="106" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="106" height="106"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SWI-Wi-CBl">
+                                            <rect key="frame" x="0.0" y="0.0" width="106" height="106"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="imageView" destination="SWI-Wi-CBl" id="jyl-gY-geo"/>
+                                    <segue destination="5th-G3-996" kind="push" identifier="showDetail" id="UBd-NV-UcQ"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="ddp-qW-HLt" id="bRd-V9-eTG"/>
+                            <outlet property="delegate" destination="ddp-qW-HLt" id="yr7-rX-taW"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Events" id="O1B-E5-H3K"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="scz-uk-por" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="716" y="-106"/>
+        </scene>
+        <!--Events Detail View Controller-->
+        <scene sceneID="DfD-rP-oXJ">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="5th-G3-996" customClass="EventsDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IVP-Qn-pIg"/>
+                        <viewControllerLayoutGuide type="bottom" id="snT-cH-Ykp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0aR-s1-ehL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7Y-b4-PhV">
+                                <rect key="frame" x="24" y="307" width="553" height="93"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="EFC-SA-m2x"/>
+                                </constraints>
+                                <string key="text">The object of the sport is simple: to shoot arrows as close to the centre of a target as possible. Olympic Archery targets are 122 centimetres in diameter, with the gold ring at the centre (worth a maximum 10 points) measuring just 12.2cm. Archers shoot at the target from a distance of 70 metres. At the Olympic Games, the two individual Archery competitions (one for men, one for women) will be played in a knockout format. Matches will be played over the best of five sets, with each set consisting of three arrows per archer. The winners of each match will qualify for the next round, until the last two archers go head to head in the gold medal match. A knockout format will also be used for the men’s and women’s team competitions, which features teams of three archers competing against each other in a best-of-24-arrows format.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbx-CV-QV3">
+                                <rect key="frame" x="24" y="436" width="552" height="164"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <string key="text">Archery made its Olympic debut at Paris 1900, was dropped from the programme after the 1908 Games, and then returned for a single appearance in 1920. After a 52-year gap, the sport was reintroduced at Munich 1972 and has remained on the Olympic programme ever since. For London 2012, the Archery competition will connect the old with the new at Lord’s Cricket Ground. During the knockout phase, archers will shoot from in front of the 19th-century Pavilion across the hallowed cricket square towards the modern Media Centre.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="archery.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Cgr-VF-fWc">
+                                <rect key="frame" x="24" y="64" width="108" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="YVu-gO-Fro"/>
+                                    <constraint firstAttribute="width" constant="108" id="htv-aw-D36"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Olympic past and present" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="18" preferredMaxLayoutWidth="272" translatesAutoresizingMaskIntoConstraints="NO" id="LyH-l9-DVk">
+                                <rect key="frame" x="24" y="408" width="272" height="25"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="a5p-4Z-6ut"/>
+                                    <constraint firstAttribute="width" constant="272" id="bFD-Yi-C3i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Archery" lineBreakMode="tailTruncation" numberOfLines="4" minimumFontSize="20" preferredMaxLayoutWidth="172" translatesAutoresizingMaskIntoConstraints="NO" id="35t-aW-75z">
+                                <rect key="frame" x="140" y="127" width="286" height="45"/>
+                                <color key="backgroundColor" red="0.51554528060000004" green="0.51554528060000004" blue="0.51554528060000004" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="9dk-9y-SNA"/>
+                                    <constraint firstAttribute="width" constant="286" id="UD1-iC-r2f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="The Basics" lineBreakMode="tailTruncation" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="bct-8U-Lb8">
+                                <rect key="frame" x="24" y="279" width="221" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="221" id="RPR-go-B5z"/>
+                                    <constraint firstAttribute="height" constant="25" id="iGE-U7-7Ut"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBW-cg-tv3">
+                                <rect key="frame" x="24" y="178" width="552" height="93"/>
+                                <color key="backgroundColor" red="1" green="0.97510601649999995" blue="0.96406502660000004" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="poX-4Y-FgS"/>
+                                </constraints>
+                                <string key="text">Archery dates back around 10,000 years, when bows and arrows were first used for hunting and warfare, before it developed as a competitive activity in medieval England. A tense and testing sport that requires immense reserves of skill and nerve, Archery is now practised in more than 140 countries around the world.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cbx-CV-QV3" firstAttribute="bottom" secondItem="0aR-s1-ehL" secondAttribute="bottomMargin" id="0pa-7j-8iC"/>
+                            <constraint firstItem="h7Y-b4-PhV" firstAttribute="top" secondItem="fBW-cg-tv3" secondAttribute="bottom" constant="36" id="2CR-pA-qbV"/>
+                            <constraint firstItem="bct-8U-Lb8" firstAttribute="top" secondItem="fBW-cg-tv3" secondAttribute="bottom" constant="8" id="4Ku-fc-O2A"/>
+                            <constraint firstItem="35t-aW-75z" firstAttribute="bottom" secondItem="Cgr-VF-fWc" secondAttribute="bottom" id="7tr-ke-LKj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cbx-CV-QV3" secondAttribute="trailing" constant="4" id="8VC-xa-45g"/>
+                            <constraint firstItem="35t-aW-75z" firstAttribute="leading" secondItem="Cgr-VF-fWc" secondAttribute="trailing" constant="8" id="IER-HM-eVb"/>
+                            <constraint firstItem="LyH-l9-DVk" firstAttribute="top" secondItem="h7Y-b4-PhV" secondAttribute="bottom" constant="8" id="OEN-Mg-rKk"/>
+                            <constraint firstItem="h7Y-b4-PhV" firstAttribute="leading" secondItem="Cgr-VF-fWc" secondAttribute="leading" id="Plp-MB-SPh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h7Y-b4-PhV" secondAttribute="trailing" constant="3" id="QPc-dt-cI3"/>
+                            <constraint firstItem="fBW-cg-tv3" firstAttribute="leading" secondItem="Cgr-VF-fWc" secondAttribute="leading" id="SWW-bh-fdv"/>
+                            <constraint firstItem="cbx-CV-QV3" firstAttribute="top" secondItem="h7Y-b4-PhV" secondAttribute="bottom" constant="36" id="UT6-jw-ART"/>
+                            <constraint firstItem="fBW-cg-tv3" firstAttribute="top" secondItem="35t-aW-75z" secondAttribute="bottom" constant="6" id="XV7-62-dNz"/>
+                            <constraint firstItem="bct-8U-Lb8" firstAttribute="leading" secondItem="Cgr-VF-fWc" secondAttribute="leading" id="beO-JY-2lo"/>
+                            <constraint firstItem="cbx-CV-QV3" firstAttribute="leading" secondItem="Cgr-VF-fWc" secondAttribute="leading" id="egR-Dn-D7z"/>
+                            <constraint firstItem="Cgr-VF-fWc" firstAttribute="leading" secondItem="0aR-s1-ehL" secondAttribute="leadingMargin" constant="4" id="mCB-a6-gNT"/>
+                            <constraint firstItem="Cgr-VF-fWc" firstAttribute="top" secondItem="IVP-Qn-pIg" secondAttribute="bottom" id="rEC-VW-MZV"/>
+                            <constraint firstItem="fBW-cg-tv3" firstAttribute="leading" secondItem="0aR-s1-ehL" secondAttribute="leadingMargin" constant="4" id="slw-cY-fuO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fBW-cg-tv3" secondAttribute="trailing" constant="4" id="tuk-gZ-bse"/>
+                            <constraint firstItem="LyH-l9-DVk" firstAttribute="leading" secondItem="Cgr-VF-fWc" secondAttribute="leading" id="wFa-Mf-hSu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="udo-2a-gz2"/>
+                    <connections>
+                        <outlet property="imgEventIcon" destination="Cgr-VF-fWc" id="9qv-Ey-Vr2"/>
+                        <outlet property="lblEventName" destination="35t-aW-75z" id="sOj-8A-G0i"/>
+                        <outlet property="txtViewBasicsInfo" destination="h7Y-b4-PhV" id="7Xl-LK-zo5"/>
+                        <outlet property="txtViewKeyInfo" destination="fBW-cg-tv3" id="Rgc-ga-cq6"/>
+                        <outlet property="txtViewOlympicInfo" destination="cbx-CV-QV3" id="wI9-3u-wEL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gFZ-BC-2SD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1377" y="-106"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="Ws0-ID-fku">
+            <objects>
+                <viewController id="vTX-jb-oAD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ks1-FL-EYP"/>
+                        <viewControllerLayoutGuide type="bottom" id="tJn-0V-4v8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="awL-p5-BHT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home-bg" translatesAutoresizingMaskIntoConstraints="NO" id="4N8-Fh-ofL">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="4N8-Fh-ofL" secondAttribute="trailing" constant="-20" id="JUz-Uc-4b1"/>
+                            <constraint firstItem="4N8-Fh-ofL" firstAttribute="bottom" secondItem="awL-p5-BHT" secondAttribute="bottomMargin" constant="-49" id="Ls3-Op-uvO"/>
+                            <constraint firstItem="4N8-Fh-ofL" firstAttribute="top" secondItem="awL-p5-BHT" secondAttribute="topMargin" id="Nu3-nj-61W"/>
+                            <constraint firstItem="4N8-Fh-ofL" firstAttribute="leading" secondItem="awL-p5-BHT" secondAttribute="leadingMargin" constant="-20" id="tFD-0b-hWi"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="Home-TabBarIcon" id="Acr-T7-lHJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xbk-7R-p46" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="59" y="-767"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="About-TabBarIcon" width="30" height="30"/>
+        <image name="About-bg" width="320" height="480"/>
+        <image name="CountDown-TabBarIcon" width="30" height="30"/>
+        <image name="CountDown-bg" width="320" height="480"/>
+        <image name="Events-TabBarIcon" width="30" height="30"/>
+        <image name="Home-TabBarIcon" width="30" height="30"/>
+        <image name="Home-bg" width="320" height="480"/>
+        <image name="Schedule-TabBarIcon" width="30" height="30"/>
+        <image name="archery.gif" width="108" height="108"/>
+    </resources>
+</document>

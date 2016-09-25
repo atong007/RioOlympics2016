@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEFA57921D97E432003B7B23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA57911D97E432003B7B23 /* main.m */; };
+		EEFA57951D97E432003B7B23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA57941D97E432003B7B23 /* AppDelegate.m */; };
+		EEFA579B1D97E432003B7B23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57991D97E432003B7B23 /* Main.storyboard */; };
+		EEFA579D1D97E432003B7B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEFA579C1D97E432003B7B23 /* Assets.xcassets */; };
+		EEFA57A01D97E432003B7B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFA579E1D97E432003B7B23 /* LaunchScreen.storyboard */; };
+		EEFA57AB1D97E432003B7B23 /* RioOlympics2016Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA57AA1D97E432003B7B23 /* RioOlympics2016Tests.m */; };
+		EEFA57B61D97E432003B7B23 /* RioOlympics2016UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA57B51D97E432003B7B23 /* RioOlympics2016UITests.m */; };
+		EEFA57C41D97E443003B7B23 /* BusinessLogicLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFA57C31D97E443003B7B23 /* BusinessLogicLayer.framework */; };
+		EEFA57CD1D97EA63003B7B23 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA57CC1D97EA63003B7B23 /* HomeViewController.m */; };
+		EEFA57D61D97F532003B7B23 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA57D51D97F532003B7B23 /* EventsViewController.m */; };
+		EEFA57D91D97F609003B7B23 /* EventsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA57D81D97F609003B7B23 /* EventsViewCell.m */; };
+		EEFA57DB1D980727003B7B23 /* PersistenceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFA57DA1D980727003B7B23 /* PersistenceLayer.framework */; };
+		EEFA58071D981435003B7B23 /* archery.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57DD1D981435003B7B23 /* archery.gif */; };
+		EEFA58081D981435003B7B23 /* athletics.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57DE1D981435003B7B23 /* athletics.gif */; };
+		EEFA58091D981435003B7B23 /* badminton.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57DF1D981435003B7B23 /* badminton.gif */; };
+		EEFA580A1D981435003B7B23 /* basketball.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57E01D981435003B7B23 /* basketball.gif */; };
+		EEFA580B1D981435003B7B23 /* beach-volleyball.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57E11D981435003B7B23 /* beach-volleyball.gif */; };
+		EEFA580C1D981435003B7B23 /* boxing.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57E21D981435003B7B23 /* boxing.gif */; };
+		EEFA580D1D981435003B7B23 /* canoe-slalom.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57E31D981435003B7B23 /* canoe-slalom.gif */; };
+		EEFA580E1D981435003B7B23 /* canoe-sprint.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57E41D981435003B7B23 /* canoe-sprint.gif */; };
+		EEFA580F1D981435003B7B23 /* cycling-bmx.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57E51D981435003B7B23 /* cycling-bmx.gif */; };
+		EEFA58101D981435003B7B23 /* cycling-mountain-bike.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57E61D981435003B7B23 /* cycling-mountain-bike.gif */; };
+		EEFA58111D981435003B7B23 /* cycling-road.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57E71D981435003B7B23 /* cycling-road.gif */; };
+		EEFA58121D981435003B7B23 /* cycling-track.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57E81D981435003B7B23 /* cycling-track.gif */; };
+		EEFA58131D981435003B7B23 /* diving.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57E91D981435003B7B23 /* diving.gif */; };
+		EEFA58141D981435003B7B23 /* equestrian-dressage.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57EA1D981435003B7B23 /* equestrian-dressage.gif */; };
+		EEFA58151D981435003B7B23 /* equestrian-eventing.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57EB1D981435003B7B23 /* equestrian-eventing.gif */; };
+		EEFA58161D981435003B7B23 /* equestrian-jumping.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57EC1D981435003B7B23 /* equestrian-jumping.gif */; };
+		EEFA58171D981435003B7B23 /* fencing.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57ED1D981435003B7B23 /* fencing.gif */; };
+		EEFA58181D981435003B7B23 /* football.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57EE1D981435003B7B23 /* football.gif */; };
+		EEFA58191D981435003B7B23 /* ganlanqiu.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57EF1D981435003B7B23 /* ganlanqiu.gif */; };
+		EEFA581A1D981435003B7B23 /* gaoerfu.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57F01D981435003B7B23 /* gaoerfu.gif */; };
+		EEFA581B1D981435003B7B23 /* golf.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57F11D981435003B7B23 /* golf.gif */; };
+		EEFA581C1D981435003B7B23 /* gymnastics-artistic.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57F21D981435003B7B23 /* gymnastics-artistic.gif */; };
+		EEFA581D1D981435003B7B23 /* gymnastics-rhythmic.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57F31D981435003B7B23 /* gymnastics-rhythmic.gif */; };
+		EEFA581E1D981435003B7B23 /* gymnastics-trampoline.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57F41D981435003B7B23 /* gymnastics-trampoline.gif */; };
+		EEFA581F1D981435003B7B23 /* handball.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57F51D981435003B7B23 /* handball.gif */; };
+		EEFA58201D981435003B7B23 /* hockey.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57F61D981435003B7B23 /* hockey.gif */; };
+		EEFA58211D981435003B7B23 /* judo.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57F71D981435003B7B23 /* judo.gif */; };
+		EEFA58221D981435003B7B23 /* modern-pentathlon.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57F81D981435003B7B23 /* modern-pentathlon.gif */; };
+		EEFA58231D981435003B7B23 /* rowing.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57F91D981435003B7B23 /* rowing.gif */; };
+		EEFA58241D981435003B7B23 /* rugby.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57FA1D981435003B7B23 /* rugby.gif */; };
+		EEFA58251D981435003B7B23 /* sailing.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57FB1D981435003B7B23 /* sailing.gif */; };
+		EEFA58261D981435003B7B23 /* shooting.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57FC1D981435003B7B23 /* shooting.gif */; };
+		EEFA58271D981435003B7B23 /* swimming.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57FD1D981435003B7B23 /* swimming.gif */; };
+		EEFA58281D981435003B7B23 /* synchronised-swimming.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57FE1D981435003B7B23 /* synchronised-swimming.gif */; };
+		EEFA58291D981435003B7B23 /* table-tennis.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA57FF1D981435003B7B23 /* table-tennis.gif */; };
+		EEFA582A1D981435003B7B23 /* taekwondo.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA58001D981435003B7B23 /* taekwondo.gif */; };
+		EEFA582B1D981435003B7B23 /* tennis.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA58011D981435003B7B23 /* tennis.gif */; };
+		EEFA582C1D981435003B7B23 /* triathlon.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA58021D981435003B7B23 /* triathlon.gif */; };
+		EEFA582D1D981435003B7B23 /* volleyball.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA58031D981435003B7B23 /* volleyball.gif */; };
+		EEFA582E1D981435003B7B23 /* water-polo.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA58041D981435003B7B23 /* water-polo.gif */; };
+		EEFA582F1D981435003B7B23 /* weightlifting.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA58051D981435003B7B23 /* weightlifting.gif */; };
+		EEFA58301D981435003B7B23 /* wrestling.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEFA58061D981435003B7B23 /* wrestling.gif */; };
+		EEFA58331D982385003B7B23 /* EventsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA58321D982385003B7B23 /* EventsDetailViewController.m */; };
+		EEFA58361D982998003B7B23 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA58351D982998003B7B23 /* ScheduleViewController.m */; };
+		EEFA58391D982F69003B7B23 /* CountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA58381D982F69003B7B23 /* CountDownViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEFA57A71D97E432003B7B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFA57851D97E432003B7B23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFA578C1D97E432003B7B23;
+			remoteInfo = RioOlympics2016;
+		};
+		EEFA57B21D97E432003B7B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFA57851D97E432003B7B23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFA578C1D97E432003B7B23;
+			remoteInfo = RioOlympics2016;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEFA578D1D97E432003B7B23 /* RioOlympics2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RioOlympics2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFA57911D97E432003B7B23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEFA57931D97E432003B7B23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		EEFA57941D97E432003B7B23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		EEFA579A1D97E432003B7B23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEFA579C1D97E432003B7B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		EEFA579F1D97E432003B7B23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEFA57A11D97E432003B7B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		EEFA57A61D97E432003B7B23 /* RioOlympics2016Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RioOlympics2016Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFA57AA1D97E432003B7B23 /* RioOlympics2016Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RioOlympics2016Tests.m; sourceTree = "<group>"; };
+		EEFA57AC1D97E432003B7B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFA57B11D97E432003B7B23 /* RioOlympics2016UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RioOlympics2016UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFA57B51D97E432003B7B23 /* RioOlympics2016UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RioOlympics2016UITests.m; sourceTree = "<group>"; };
+		EEFA57B71D97E432003B7B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFA57C31D97E443003B7B23 /* BusinessLogicLayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BusinessLogicLayer.framework; path = "../BusinessLogicLayer/build/Debug-iphoneos/BusinessLogicLayer.framework"; sourceTree = "<group>"; };
+		EEFA57CB1D97EA63003B7B23 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EEFA57CC1D97EA63003B7B23 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EEFA57D41D97F532003B7B23 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		EEFA57D51D97F532003B7B23 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		EEFA57D71D97F609003B7B23 /* EventsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewCell.h; sourceTree = "<group>"; };
+		EEFA57D81D97F609003B7B23 /* EventsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewCell.m; sourceTree = "<group>"; };
+		EEFA57DA1D980727003B7B23 /* PersistenceLayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PersistenceLayer.framework; path = "../../../../Library/Developer/Xcode/DerivedData/RioOlympics2016-aznkddxaflhczhhdocypjgpbgtpp/Build/Products/Debug-iphonesimulator/PersistenceLayer.framework"; sourceTree = "<group>"; };
+		EEFA57DD1D981435003B7B23 /* archery.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = archery.gif; sourceTree = "<group>"; };
+		EEFA57DE1D981435003B7B23 /* athletics.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = athletics.gif; sourceTree = "<group>"; };
+		EEFA57DF1D981435003B7B23 /* badminton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = badminton.gif; sourceTree = "<group>"; };
+		EEFA57E01D981435003B7B23 /* basketball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = basketball.gif; sourceTree = "<group>"; };
+		EEFA57E11D981435003B7B23 /* beach-volleyball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "beach-volleyball.gif"; sourceTree = "<group>"; };
+		EEFA57E21D981435003B7B23 /* boxing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = boxing.gif; sourceTree = "<group>"; };
+		EEFA57E31D981435003B7B23 /* canoe-slalom.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "canoe-slalom.gif"; sourceTree = "<group>"; };
+		EEFA57E41D981435003B7B23 /* canoe-sprint.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "canoe-sprint.gif"; sourceTree = "<group>"; };
+		EEFA57E51D981435003B7B23 /* cycling-bmx.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cycling-bmx.gif"; sourceTree = "<group>"; };
+		EEFA57E61D981435003B7B23 /* cycling-mountain-bike.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cycling-mountain-bike.gif"; sourceTree = "<group>"; };
+		EEFA57E71D981435003B7B23 /* cycling-road.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cycling-road.gif"; sourceTree = "<group>"; };
+		EEFA57E81D981435003B7B23 /* cycling-track.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cycling-track.gif"; sourceTree = "<group>"; };
+		EEFA57E91D981435003B7B23 /* diving.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = diving.gif; sourceTree = "<group>"; };
+		EEFA57EA1D981435003B7B23 /* equestrian-dressage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "equestrian-dressage.gif"; sourceTree = "<group>"; };
+		EEFA57EB1D981435003B7B23 /* equestrian-eventing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "equestrian-eventing.gif"; sourceTree = "<group>"; };
+		EEFA57EC1D981435003B7B23 /* equestrian-jumping.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "equestrian-jumping.gif"; sourceTree = "<group>"; };
+		EEFA57ED1D981435003B7B23 /* fencing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fencing.gif; sourceTree = "<group>"; };
+		EEFA57EE1D981435003B7B23 /* football.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = football.gif; sourceTree = "<group>"; };
+		EEFA57EF1D981435003B7B23 /* ganlanqiu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ganlanqiu.gif; sourceTree = "<group>"; };
+		EEFA57F01D981435003B7B23 /* gaoerfu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gaoerfu.gif; sourceTree = "<group>"; };
+		EEFA57F11D981435003B7B23 /* golf.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = golf.gif; sourceTree = "<group>"; };
+		EEFA57F21D981435003B7B23 /* gymnastics-artistic.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "gymnastics-artistic.gif"; sourceTree = "<group>"; };
+		EEFA57F31D981435003B7B23 /* gymnastics-rhythmic.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "gymnastics-rhythmic.gif"; sourceTree = "<group>"; };
+		EEFA57F41D981435003B7B23 /* gymnastics-trampoline.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "gymnastics-trampoline.gif"; sourceTree = "<group>"; };
+		EEFA57F51D981435003B7B23 /* handball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = handball.gif; sourceTree = "<group>"; };
+		EEFA57F61D981435003B7B23 /* hockey.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hockey.gif; sourceTree = "<group>"; };
+		EEFA57F71D981435003B7B23 /* judo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = judo.gif; sourceTree = "<group>"; };
+		EEFA57F81D981435003B7B23 /* modern-pentathlon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "modern-pentathlon.gif"; sourceTree = "<group>"; };
+		EEFA57F91D981435003B7B23 /* rowing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rowing.gif; sourceTree = "<group>"; };
+		EEFA57FA1D981435003B7B23 /* rugby.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rugby.gif; sourceTree = "<group>"; };
+		EEFA57FB1D981435003B7B23 /* sailing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sailing.gif; sourceTree = "<group>"; };
+		EEFA57FC1D981435003B7B23 /* shooting.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shooting.gif; sourceTree = "<group>"; };
+		EEFA57FD1D981435003B7B23 /* swimming.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = swimming.gif; sourceTree = "<group>"; };
+		EEFA57FE1D981435003B7B23 /* synchronised-swimming.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "synchronised-swimming.gif"; sourceTree = "<group>"; };
+		EEFA57FF1D981435003B7B23 /* table-tennis.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "table-tennis.gif"; sourceTree = "<group>"; };
+		EEFA58001D981435003B7B23 /* taekwondo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = taekwondo.gif; sourceTree = "<group>"; };
+		EEFA58011D981435003B7B23 /* tennis.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tennis.gif; sourceTree = "<group>"; };
+		EEFA58021D981435003B7B23 /* triathlon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = triathlon.gif; sourceTree = "<group>"; };
+		EEFA58031D981435003B7B23 /* volleyball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = volleyball.gif; sourceTree = "<group>"; };
+		EEFA58041D981435003B7B23 /* water-polo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "water-polo.gif"; sourceTree = "<group>"; };
+		EEFA58051D981435003B7B23 /* weightlifting.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = weightlifting.gif; sourceTree = "<group>"; };
+		EEFA58061D981435003B7B23 /* wrestling.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wrestling.gif; sourceTree = "<group>"; };
+		EEFA58311D982385003B7B23 /* EventsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsDetailViewController.h; sourceTree = "<group>"; };
+		EEFA58321D982385003B7B23 /* EventsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsDetailViewController.m; sourceTree = "<group>"; };
+		EEFA58341D982998003B7B23 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		EEFA58351D982998003B7B23 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		EEFA58371D982F69003B7B23 /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
+		EEFA58381D982F69003B7B23 /* CountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEFA578A1D97E432003B7B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFA57DB1D980727003B7B23 /* PersistenceLayer.framework in Frameworks */,
+				EEFA57C41D97E443003B7B23 /* BusinessLogicLayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFA57A31D97E432003B7B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFA57AE1D97E432003B7B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEFA57841D97E432003B7B23 = {
+			isa = PBXGroup;
+			children = (
+				EEFA57DA1D980727003B7B23 /* PersistenceLayer.framework */,
+				EEFA57C31D97E443003B7B23 /* BusinessLogicLayer.framework */,
+				EEFA578F1D97E432003B7B23 /* RioOlympics2016 */,
+				EEFA57A91D97E432003B7B23 /* RioOlympics2016Tests */,
+				EEFA57B41D97E432003B7B23 /* RioOlympics2016UITests */,
+				EEFA578E1D97E432003B7B23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEFA578E1D97E432003B7B23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEFA578D1D97E432003B7B23 /* RioOlympics2016.app */,
+				EEFA57A61D97E432003B7B23 /* RioOlympics2016Tests.xctest */,
+				EEFA57B11D97E432003B7B23 /* RioOlympics2016UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEFA578F1D97E432003B7B23 /* RioOlympics2016 */ = {
+			isa = PBXGroup;
+			children = (
+				EEFA57C81D97E9FA003B7B23 /* Home */,
+				EEFA57C71D97E9FA003B7B23 /* Events */,
+				EEFA57C91D97E9FA003B7B23 /* Schedule */,
+				EEFA57C61D97E9FA003B7B23 /* CountDown */,
+				EEFA57C51D97E9FA003B7B23 /* About */,
+				EEFA57CA1D97EA14003B7B23 /* Others */,
+			);
+			path = RioOlympics2016;
+			sourceTree = "<group>";
+		};
+		EEFA57901D97E432003B7B23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEFA57911D97E432003B7B23 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EEFA57A91D97E432003B7B23 /* RioOlympics2016Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EEFA57AA1D97E432003B7B23 /* RioOlympics2016Tests.m */,
+				EEFA57AC1D97E432003B7B23 /* Info.plist */,
+			);
+			path = RioOlympics2016Tests;
+			sourceTree = "<group>";
+		};
+		EEFA57B41D97E432003B7B23 /* RioOlympics2016UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEFA57B51D97E432003B7B23 /* RioOlympics2016UITests.m */,
+				EEFA57B71D97E432003B7B23 /* Info.plist */,
+			);
+			path = RioOlympics2016UITests;
+			sourceTree = "<group>";
+		};
+		EEFA57C51D97E9FA003B7B23 /* About */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		EEFA57C61D97E9FA003B7B23 /* CountDown */ = {
+			isa = PBXGroup;
+			children = (
+				EEFA58371D982F69003B7B23 /* CountDownViewController.h */,
+				EEFA58381D982F69003B7B23 /* CountDownViewController.m */,
+			);
+			path = CountDown;
+			sourceTree = "<group>";
+		};
+		EEFA57C71D97E9FA003B7B23 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				EEFA57D41D97F532003B7B23 /* EventsViewController.h */,
+				EEFA57D51D97F532003B7B23 /* EventsViewController.m */,
+				EEFA57D71D97F609003B7B23 /* EventsViewCell.h */,
+				EEFA57D81D97F609003B7B23 /* EventsViewCell.m */,
+				EEFA58311D982385003B7B23 /* EventsDetailViewController.h */,
+				EEFA58321D982385003B7B23 /* EventsDetailViewController.m */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		EEFA57C81D97E9FA003B7B23 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EEFA57CB1D97EA63003B7B23 /* HomeViewController.h */,
+				EEFA57CC1D97EA63003B7B23 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EEFA57C91D97E9FA003B7B23 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				EEFA58341D982998003B7B23 /* ScheduleViewController.h */,
+				EEFA58351D982998003B7B23 /* ScheduleViewController.m */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		EEFA57CA1D97EA14003B7B23 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				EEFA57DC1D981435003B7B23 /* events */,
+				EEFA57931D97E432003B7B23 /* AppDelegate.h */,
+				EEFA57941D97E432003B7B23 /* AppDelegate.m */,
+				EEFA57991D97E432003B7B23 /* Main.storyboard */,
+				EEFA579C1D97E432003B7B23 /* Assets.xcassets */,
+				EEFA579E1D97E432003B7B23 /* LaunchScreen.storyboard */,
+				EEFA57A11D97E432003B7B23 /* Info.plist */,
+				EEFA57901D97E432003B7B23 /* Supporting Files */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		EEFA57DC1D981435003B7B23 /* events */ = {
+			isa = PBXGroup;
+			children = (
+				EEFA57DD1D981435003B7B23 /* archery.gif */,
+				EEFA57DE1D981435003B7B23 /* athletics.gif */,
+				EEFA57DF1D981435003B7B23 /* badminton.gif */,
+				EEFA57E01D981435003B7B23 /* basketball.gif */,
+				EEFA57E11D981435003B7B23 /* beach-volleyball.gif */,
+				EEFA57E21D981435003B7B23 /* boxing.gif */,
+				EEFA57E31D981435003B7B23 /* canoe-slalom.gif */,
+				EEFA57E41D981435003B7B23 /* canoe-sprint.gif */,
+				EEFA57E51D981435003B7B23 /* cycling-bmx.gif */,
+				EEFA57E61D981435003B7B23 /* cycling-mountain-bike.gif */,
+				EEFA57E71D981435003B7B23 /* cycling-road.gif */,
+				EEFA57E81D981435003B7B23 /* cycling-track.gif */,
+				EEFA57E91D981435003B7B23 /* diving.gif */,
+				EEFA57EA1D981435003B7B23 /* equestrian-dressage.gif */,
+				EEFA57EB1D981435003B7B23 /* equestrian-eventing.gif */,
+				EEFA57EC1D981435003B7B23 /* equestrian-jumping.gif */,
+				EEFA57ED1D981435003B7B23 /* fencing.gif */,
+				EEFA57EE1D981435003B7B23 /* football.gif */,
+				EEFA57EF1D981435003B7B23 /* ganlanqiu.gif */,
+				EEFA57F01D981435003B7B23 /* gaoerfu.gif */,
+				EEFA57F11D981435003B7B23 /* golf.gif */,
+				EEFA57F21D981435003B7B23 /* gymnastics-artistic.gif */,
+				EEFA57F31D981435003B7B23 /* gymnastics-rhythmic.gif */,
+				EEFA57F41D981435003B7B23 /* gymnastics-trampoline.gif */,
+				EEFA57F51D981435003B7B23 /* handball.gif */,
+				EEFA57F61D981435003B7B23 /* hockey.gif */,
+				EEFA57F71D981435003B7B23 /* judo.gif */,
+				EEFA57F81D981435003B7B23 /* modern-pentathlon.gif */,
+				EEFA57F91D981435003B7B23 /* rowing.gif */,
+				EEFA57FA1D981435003B7B23 /* rugby.gif */,
+				EEFA57FB1D981435003B7B23 /* sailing.gif */,
+				EEFA57FC1D981435003B7B23 /* shooting.gif */,
+				EEFA57FD1D981435003B7B23 /* swimming.gif */,
+				EEFA57FE1D981435003B7B23 /* synchronised-swimming.gif */,
+				EEFA57FF1D981435003B7B23 /* table-tennis.gif */,
+				EEFA58001D981435003B7B23 /* taekwondo.gif */,
+				EEFA58011D981435003B7B23 /* tennis.gif */,
+				EEFA58021D981435003B7B23 /* triathlon.gif */,
+				EEFA58031D981435003B7B23 /* volleyball.gif */,
+				EEFA58041D981435003B7B23 /* water-polo.gif */,
+				EEFA58051D981435003B7B23 /* weightlifting.gif */,
+				EEFA58061D981435003B7B23 /* wrestling.gif */,
+			);
+			path = events;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEFA578C1D97E432003B7B23 /* RioOlympics2016 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFA57BA1D97E432003B7B23 /* Build configuration list for PBXNativeTarget "RioOlympics2016" */;
+			buildPhases = (
+				EEFA57891D97E432003B7B23 /* Sources */,
+				EEFA578A1D97E432003B7B23 /* Frameworks */,
+				EEFA578B1D97E432003B7B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RioOlympics2016;
+			productName = RioOlympics2016;
+			productReference = EEFA578D1D97E432003B7B23 /* RioOlympics2016.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEFA57A51D97E432003B7B23 /* RioOlympics2016Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFA57BD1D97E432003B7B23 /* Build configuration list for PBXNativeTarget "RioOlympics2016Tests" */;
+			buildPhases = (
+				EEFA57A21D97E432003B7B23 /* Sources */,
+				EEFA57A31D97E432003B7B23 /* Frameworks */,
+				EEFA57A41D97E432003B7B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFA57A81D97E432003B7B23 /* PBXTargetDependency */,
+			);
+			name = RioOlympics2016Tests;
+			productName = RioOlympics2016Tests;
+			productReference = EEFA57A61D97E432003B7B23 /* RioOlympics2016Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEFA57B01D97E432003B7B23 /* RioOlympics2016UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFA57C01D97E432003B7B23 /* Build configuration list for PBXNativeTarget "RioOlympics2016UITests" */;
+			buildPhases = (
+				EEFA57AD1D97E432003B7B23 /* Sources */,
+				EEFA57AE1D97E432003B7B23 /* Frameworks */,
+				EEFA57AF1D97E432003B7B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFA57B31D97E432003B7B23 /* PBXTargetDependency */,
+			);
+			name = RioOlympics2016UITests;
+			productName = RioOlympics2016UITests;
+			productReference = EEFA57B11D97E432003B7B23 /* RioOlympics2016UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEFA57851D97E432003B7B23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "洪龙通";
+				TargetAttributes = {
+					EEFA578C1D97E432003B7B23 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GRT2DH3R4P;
+					};
+					EEFA57A51D97E432003B7B23 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GRT2DH3R4P;
+						TestTargetID = EEFA578C1D97E432003B7B23;
+					};
+					EEFA57B01D97E432003B7B23 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GRT2DH3R4P;
+						TestTargetID = EEFA578C1D97E432003B7B23;
+					};
+				};
+			};
+			buildConfigurationList = EEFA57881D97E432003B7B23 /* Build configuration list for PBXProject "RioOlympics2016" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEFA57841D97E432003B7B23;
+			productRefGroup = EEFA578E1D97E432003B7B23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEFA578C1D97E432003B7B23 /* RioOlympics2016 */,
+				EEFA57A51D97E432003B7B23 /* RioOlympics2016Tests */,
+				EEFA57B01D97E432003B7B23 /* RioOlympics2016UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEFA578B1D97E432003B7B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFA58161D981435003B7B23 /* equestrian-jumping.gif in Resources */,
+				EEFA58171D981435003B7B23 /* fencing.gif in Resources */,
+				EEFA58221D981435003B7B23 /* modern-pentathlon.gif in Resources */,
+				EEFA58241D981435003B7B23 /* rugby.gif in Resources */,
+				EEFA581F1D981435003B7B23 /* handball.gif in Resources */,
+				EEFA58231D981435003B7B23 /* rowing.gif in Resources */,
+				EEFA582A1D981435003B7B23 /* taekwondo.gif in Resources */,
+				EEFA581E1D981435003B7B23 /* gymnastics-trampoline.gif in Resources */,
+				EEFA582D1D981435003B7B23 /* volleyball.gif in Resources */,
+				EEFA582C1D981435003B7B23 /* triathlon.gif in Resources */,
+				EEFA580F1D981435003B7B23 /* cycling-bmx.gif in Resources */,
+				EEFA58151D981435003B7B23 /* equestrian-eventing.gif in Resources */,
+				EEFA581B1D981435003B7B23 /* golf.gif in Resources */,
+				EEFA58121D981435003B7B23 /* cycling-track.gif in Resources */,
+				EEFA582F1D981435003B7B23 /* weightlifting.gif in Resources */,
+				EEFA58271D981435003B7B23 /* swimming.gif in Resources */,
+				EEFA57A01D97E432003B7B23 /* LaunchScreen.storyboard in Resources */,
+				EEFA581A1D981435003B7B23 /* gaoerfu.gif in Resources */,
+				EEFA58201D981435003B7B23 /* hockey.gif in Resources */,
+				EEFA582E1D981435003B7B23 /* water-polo.gif in Resources */,
+				EEFA580A1D981435003B7B23 /* basketball.gif in Resources */,
+				EEFA58281D981435003B7B23 /* synchronised-swimming.gif in Resources */,
+				EEFA58141D981435003B7B23 /* equestrian-dressage.gif in Resources */,
+				EEFA58101D981435003B7B23 /* cycling-mountain-bike.gif in Resources */,
+				EEFA58191D981435003B7B23 /* ganlanqiu.gif in Resources */,
+				EEFA580C1D981435003B7B23 /* boxing.gif in Resources */,
+				EEFA58301D981435003B7B23 /* wrestling.gif in Resources */,
+				EEFA58081D981435003B7B23 /* athletics.gif in Resources */,
+				EEFA582B1D981435003B7B23 /* tennis.gif in Resources */,
+				EEFA581C1D981435003B7B23 /* gymnastics-artistic.gif in Resources */,
+				EEFA580E1D981435003B7B23 /* canoe-sprint.gif in Resources */,
+				EEFA58071D981435003B7B23 /* archery.gif in Resources */,
+				EEFA580D1D981435003B7B23 /* canoe-slalom.gif in Resources */,
+				EEFA58091D981435003B7B23 /* badminton.gif in Resources */,
+				EEFA58211D981435003B7B23 /* judo.gif in Resources */,
+				EEFA58111D981435003B7B23 /* cycling-road.gif in Resources */,
+				EEFA579D1D97E432003B7B23 /* Assets.xcassets in Resources */,
+				EEFA58291D981435003B7B23 /* table-tennis.gif in Resources */,
+				EEFA58251D981435003B7B23 /* sailing.gif in Resources */,
+				EEFA58261D981435003B7B23 /* shooting.gif in Resources */,
+				EEFA580B1D981435003B7B23 /* beach-volleyball.gif in Resources */,
+				EEFA581D1D981435003B7B23 /* gymnastics-rhythmic.gif in Resources */,
+				EEFA579B1D97E432003B7B23 /* Main.storyboard in Resources */,
+				EEFA58131D981435003B7B23 /* diving.gif in Resources */,
+				EEFA58181D981435003B7B23 /* football.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFA57A41D97E432003B7B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFA57AF1D97E432003B7B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEFA57891D97E432003B7B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFA58331D982385003B7B23 /* EventsDetailViewController.m in Sources */,
+				EEFA57951D97E432003B7B23 /* AppDelegate.m in Sources */,
+				EEFA57D91D97F609003B7B23 /* EventsViewCell.m in Sources */,
+				EEFA57D61D97F532003B7B23 /* EventsViewController.m in Sources */,
+				EEFA58391D982F69003B7B23 /* CountDownViewController.m in Sources */,
+				EEFA57921D97E432003B7B23 /* main.m in Sources */,
+				EEFA58361D982998003B7B23 /* ScheduleViewController.m in Sources */,
+				EEFA57CD1D97EA63003B7B23 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFA57A21D97E432003B7B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFA57AB1D97E432003B7B23 /* RioOlympics2016Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFA57AD1D97E432003B7B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFA57B61D97E432003B7B23 /* RioOlympics2016UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEFA57A81D97E432003B7B23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFA578C1D97E432003B7B23 /* RioOlympics2016 */;
+			targetProxy = EEFA57A71D97E432003B7B23 /* PBXContainerItemProxy */;
+		};
+		EEFA57B31D97E432003B7B23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFA578C1D97E432003B7B23 /* RioOlympics2016 */;
+			targetProxy = EEFA57B21D97E432003B7B23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEFA57991D97E432003B7B23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEFA579A1D97E432003B7B23 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EEFA579E1D97E432003B7B23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEFA579F1D97E432003B7B23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEFA57B81D97E432003B7B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEFA57B91D97E432003B7B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEFA57BB1D97E432003B7B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RioOlympics2016/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = honglt.RioOlympics2016;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEFA57BC1D97E432003B7B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RioOlympics2016/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = honglt.RioOlympics2016;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEFA57BE1D97E432003B7B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RioOlympics2016Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = honglt.RioOlympics2016Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RioOlympics2016.app/RioOlympics2016";
+			};
+			name = Debug;
+		};
+		EEFA57BF1D97E432003B7B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RioOlympics2016Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = honglt.RioOlympics2016Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RioOlympics2016.app/RioOlympics2016";
+			};
+			name = Release;
+		};
+		EEFA57C11D97E432003B7B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RioOlympics2016UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = honglt.RioOlympics2016UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RioOlympics2016;
+			};
+			name = Debug;
+		};
+		EEFA57C21D97E432003B7B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RioOlympics2016UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = honglt.RioOlympics2016UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RioOlympics2016;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEFA57881D97E432003B7B23 /* Build configuration list for PBXProject "RioOlympics2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFA57B81D97E432003B7B23 /* Debug */,
+				EEFA57B91D97E432003B7B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFA57BA1D97E432003B7B23 /* Build configuration list for PBXNativeTarget "RioOlympics2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFA57BB1D97E432003B7B23 /* Debug */,
+				EEFA57BC1D97E432003B7B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEFA57BD1D97E432003B7B23 /* Build configuration list for PBXNativeTarget "RioOlympics2016Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFA57BE1D97E432003B7B23 /* Debug */,
+				EEFA57BF1D97E432003B7B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEFA57C01D97E432003B7B23 /* Build configuration list for PBXNativeTarget "RioOlympics2016UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFA57C11D97E432003B7B23 /* Debug */,
+				EEFA57C21D97E432003B7B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEFA57851D97E432003B7B23 /* Project object */;
+}
