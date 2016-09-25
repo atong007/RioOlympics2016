@@ -15,5 +15,8 @@ FOUNDATION_EXPORT double PersistenceLayerVersionNumber;
 FOUNDATION_EXPORT const unsigned char PersistenceLayerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PersistenceLayer/PublicHeader.h>
-#import <PersistenceLayer/EventsDao.h>
+
+#import <PersistenceLayer/Events.h>
+#import <PersistenceLayer/Schedule.h>
 #import <PersistenceLayer/ScheduleDao.h>
+#import <PersistenceLayer/EventsDao.h>

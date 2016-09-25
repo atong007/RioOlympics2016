@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0F34C41D97AE550002505B /* PersistenceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFA80681D962A6C00212A93 /* PersistenceLayer.framework */; };
+		EEA7B2851D9771BC000FEF42 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA7B2841D9771BC000FEF42 /* libsqlite3.tbd */; };
 		EEFA806C1D962A6C00212A93 /* PersistenceLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFA806B1D962A6C00212A93 /* PersistenceLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEFA80731D962A6C00212A93 /* PersistenceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFA80681D962A6C00212A93 /* PersistenceLayer.framework */; };
-		EEFA80781D962A6C00212A93 /* PersistenceLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA80771D962A6C00212A93 /* PersistenceLayerTests.m */; };
-		EEFA80931D962AAA00212A93 /* BaseDao.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFA80831D962AAA00212A93 /* BaseDao.h */; };
+		EEFA80931D962AAA00212A93 /* BaseDao.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFA80831D962AAA00212A93 /* BaseDao.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEFA80941D962AAA00212A93 /* BaseDao.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA80841D962AAA00212A93 /* BaseDao.m */; };
-		EEFA80951D962AAA00212A93 /* EventsDao.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFA80851D962AAA00212A93 /* EventsDao.h */; };
+		EEFA80951D962AAA00212A93 /* EventsDao.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFA80851D962AAA00212A93 /* EventsDao.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEFA80961D962AAA00212A93 /* EventsDao.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA80861D962AAA00212A93 /* EventsDao.m */; };
-		EEFA80971D962AAA00212A93 /* ScheduleDao.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFA80871D962AAA00212A93 /* ScheduleDao.h */; };
+		EEFA80971D962AAA00212A93 /* ScheduleDao.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFA80871D962AAA00212A93 /* ScheduleDao.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEFA80981D962AAA00212A93 /* ScheduleDao.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA80881D962AAA00212A93 /* ScheduleDao.m */; };
 		EEFA80991D962AAA00212A93 /* create_load.sql in Resources */ = {isa = PBXBuildFile; fileRef = EEFA808A1D962AAA00212A93 /* create_load.sql */; };
 		EEFA809A1D962AAA00212A93 /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEFA808B1D962AAA00212A93 /* DBConfig.plist */; };
-		EEFA809B1D962AAA00212A93 /* DBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFA808C1D962AAA00212A93 /* DBHelper.h */; };
+		EEFA809B1D962AAA00212A93 /* DBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFA808C1D962AAA00212A93 /* DBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEFA809C1D962AAA00212A93 /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA808D1D962AAA00212A93 /* DBHelper.m */; };
-		EEFA809D1D962AAA00212A93 /* Events.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFA808F1D962AAA00212A93 /* Events.h */; };
+		EEFA809D1D962AAA00212A93 /* Events.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFA808F1D962AAA00212A93 /* Events.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEFA809E1D962AAA00212A93 /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA80901D962AAA00212A93 /* Events.m */; };
-		EEFA809F1D962AAA00212A93 /* Schedule.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFA80911D962AAA00212A93 /* Schedule.h */; };
+		EEFA809F1D962AAA00212A93 /* Schedule.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFA80911D962AAA00212A93 /* Schedule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEFA80A01D962AAA00212A93 /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA80921D962AAA00212A93 /* Schedule.m */; };
 		EEFA80A31D962B0900212A93 /* EventsDaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA80A11D962B0900212A93 /* EventsDaoTests.m */; };
 		EEFA80A41D962B0900212A93 /* ScheduleDaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFA80A21D962B0900212A93 /* ScheduleDaoTests.m */; };
-		EEFA80A61D962B2A00212A93 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFA80A51D962B2A00212A93 /* libsqlite3.dylib */; };
-		EEFA80A71D962B4E00212A93 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFA80A51D962B2A00212A93 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EEA7B2841D9771BC000FEF42 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		EEFA80681D962A6C00212A93 /* PersistenceLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PersistenceLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEFA806B1D962A6C00212A93 /* PersistenceLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceLayer.h; sourceTree = "<group>"; };
 		EEFA806D1D962A6C00212A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEFA80721D962A6C00212A93 /* PersistenceLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersistenceLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEFA80771D962A6C00212A93 /* PersistenceLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceLayerTests.m; sourceTree = "<group>"; };
 		EEFA80791D962A6C00212A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEFA80831D962AAA00212A93 /* BaseDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDao.h; sourceTree = "<group>"; };
 		EEFA80841D962AAA00212A93 /* BaseDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDao.m; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 		EEFA80921D962AAA00212A93 /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
 		EEFA80A11D962B0900212A93 /* EventsDaoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsDaoTests.m; sourceTree = "<group>"; };
 		EEFA80A21D962B0900212A93 /* ScheduleDaoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleDaoTests.m; sourceTree = "<group>"; };
-		EEFA80A51D962B2A00212A93 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEFA80A71D962B4E00212A93 /* libsqlite3.dylib in Frameworks */,
+				EEA7B2851D9771BC000FEF42 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,8 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEFA80A61D962B2A00212A93 /* libsqlite3.dylib in Frameworks */,
-				EEFA80731D962A6C00212A93 /* PersistenceLayer.framework in Frameworks */,
+				EE0F34C41D97AE550002505B /* PersistenceLayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +86,7 @@
 		EEFA805E1D962A6C00212A93 = {
 			isa = PBXGroup;
 			children = (
-				EEFA80A51D962B2A00212A93 /* libsqlite3.dylib */,
+				EEA7B2841D9771BC000FEF42 /* libsqlite3.tbd */,
 				EEFA806A1D962A6C00212A93 /* PersistenceLayer */,
 				EEFA80761D962A6C00212A93 /* PersistenceLayerTests */,
 				EEFA80691D962A6C00212A93 /* Products */,
@@ -125,7 +121,6 @@
 			children = (
 				EEFA80A11D962B0900212A93 /* EventsDaoTests.m */,
 				EEFA80A21D962B0900212A93 /* ScheduleDaoTests.m */,
-				EEFA80771D962A6C00212A93 /* PersistenceLayerTests.m */,
 				EEFA80791D962A6C00212A93 /* Info.plist */,
 			);
 			path = PersistenceLayerTests;
@@ -295,7 +290,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEFA80A41D962B0900212A93 /* ScheduleDaoTests.m in Sources */,
-				EEFA80781D962A6C00212A93 /* PersistenceLayerTests.m in Sources */,
 				EEFA80A31D962B0900212A93 /* EventsDaoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -363,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -404,6 +400,7 @@
 		EEFA807D1D962A6C00212A93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -420,6 +417,7 @@
 		EEFA807E1D962A6C00212A93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -472,6 +470,7 @@
 				EEFA807E1D962A6C00212A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEFA807F1D962A6C00212A93 /* Build configuration list for PBXNativeTarget "PersistenceLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +479,7 @@
 				EEFA80811D962A6C00212A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
